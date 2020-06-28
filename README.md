@@ -1,4 +1,4 @@
-#mock数据
+## mock数据
 
 #### 准备工作
 在项目目录创建一个mock-config.json文件，mock的数据会根据此文件的信息在该项目目录下生成一个mock的文件夹，生成的文件会根据接口名字生成，mock-config.json配置文件格式：

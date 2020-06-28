@@ -7,6 +7,7 @@ mock-config.json
 .npm
 
 .idea
+.idea/
 .vscode
 .DS_Store
 **/.DS_Store
