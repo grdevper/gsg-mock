@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+mock/
+mock-config.json
+
+# Optional npm cache directory
+.npm
+
+.idea
+.vscode
+.DS_Store
+**/.DS_Store
+

@@ -1,0 +1,45 @@
+{
+  "name": "gsg-mock",
+  "version": "1.0.0",
+  "description": "固守mock数据",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env node ./bin/server.js $port",
+    "craw": "cross-env node ./bin/entry.js",
+    "server": "cross-env server_only=true node ./bin/server.js $port"
+  },
+  "bin": {
+    "gmock": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grdevper/gsg-mock.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "grdevper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grdevper/gsg-mock/issues"
+  },
+  "homepage": "https://github.com/grdevper/gsg-mock#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "child_process": "^1.0.2",
+    "commander": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "koa": "^2.12.1",
+    "koa-router": "^9.0.1",
+    "koa-send": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "superagent": "^5.2.2",
+    "url": "^0.11.0"
+  }
+}
