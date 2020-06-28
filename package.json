@@ -1,6 +1,6 @@
 {
   "name": "gsg-mock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "固守mock数据",
   "main": "index.js",
   "scripts": {

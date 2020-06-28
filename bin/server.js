@@ -16,7 +16,7 @@ module.exports = function (command_port, server_only) {
       command_port = port;
     }
     if (!server_only) {
-        const worker = childProcess.fork('./bin/entry.js');
+        const worker = childProcess.fork(`${__dirname}/entry.js`);
          // 子进程退出后，退出当前进程；
         worker.on('exit', function (code) {
             process.exit(code);
