@@ -2,7 +2,7 @@
 node_modules/
 mock/
 mock-config.json
-
+package-lock.json
 
 # Optional npm cache directory
 .npm
